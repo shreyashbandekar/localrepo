@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class crc {
-    private static final int polynomial = 0x1021; // CRC-CCITT polynomial
+    private static final int polynomial = 0x1621; // CRC-CCITT polynomial
 
     public static String CRCCCITT(String data) {
         int crc = 0xFFFF; // Initial CRC value
